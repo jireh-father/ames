@@ -31,7 +31,7 @@ def compute_trapezoidal_ap(ranks, nres):
     # number of images ranked by the system
     nimgranks = len(ranks)
 
-    # accumulate trapezoids in PR-plot
+    # accumulate trapezoids in PR-plotㅁ
     ap = 0
 
     recall_step = 1. / nres
